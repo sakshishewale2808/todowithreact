@@ -16,16 +16,16 @@
 position: absolute;
  top: 5px;
  right: 5px;
- background-color: #ffff;
- font-size: 14px;
- padding: 1px 5px;
+ background-color: wheat;
+ font-size: 22px;
+ padding:  5px;
  width: 80px;
  text-align: center;
  border-radius: 20px;
  
 }
 .delete-icon{
-height: 20px;
+height: 22px;
 margin-right: 10px;
 cursor: pointer;
 }
