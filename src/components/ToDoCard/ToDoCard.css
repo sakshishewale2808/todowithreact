@@ -51,7 +51,7 @@ cursor: pointer;
 
 .delete-icon:hover{
     height: 21px;
-    animation-name:delete-ainmation ;
+    animation-name:delete-animation;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }

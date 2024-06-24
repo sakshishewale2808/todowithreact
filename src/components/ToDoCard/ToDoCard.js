@@ -6,28 +6,21 @@ function ToDoCard({index,task,category,deleteItem}) {
 
   const CATEGORY_EMOJI_MAP = {
     Learning:"📚",
-    work:"🧑‍🏭",
-    Shopping:"🛒",
+    work:"👩‍🚒",
+    Shopping:"🛍️",
     health:"🧑‍⚕️",
     others:"🎑"
   
   }
   const CATEGORY_COLOURS ={
-    Learning:"yellow",
+    Learning:"green",
     Work:"Purple",
-    Shopping:"blue",
+    Shopping:"yellow",
     Health:"red",
     Others:"gray",
     Personal:"pink"
   
   }
-  const theme ={
-    primary:"#80ccff",
-    primaryDark:"#0077cc",
-    secondary:"#f4f4f4",
-    text:"#333",
- 
-}
   return (
     <div className='todo-card'>
        <img src={ImgDel }
