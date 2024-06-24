@@ -24,28 +24,6 @@ if(todoList.length===0)return
 localStorage.setItem("todoList",JSON.stringify(todoList))
 },[todoList])
 
-function deleteItem(index){
-  swal.fire({
-    title:'Are you sure?',
-    text:"You Want to delete this Task!",
-    icon:'warning',
-    showCancelButton:true,
-   }).then((result)=>{
-    if(!result.isConfirmed){
-     return
-    }
-    const newTodoList = todoList.filter((item,i)=>{
-      if(i!==index){
-        return true
-      }
-      else{
-        return false
-      }
-    })
-    setTodoList(newTodoList)
-   })
-
-}
   return (  <div>
   <h1 className="app-title">ToDoApp📃</h1>
  
